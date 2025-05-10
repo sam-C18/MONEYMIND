@@ -1,0 +1,33 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-card h3 {
+    color: #0047ab;
+    margin-bottom: 12px;
+  }
+  
+  .feature-card p {
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
